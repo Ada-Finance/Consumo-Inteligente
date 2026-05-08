@@ -26,6 +26,10 @@ export default function Dashboard() {
             <Insights />
           </div>
         </div>
+        {/* Primeira coluna - Lista de gastos */}
+          <div className="lg:col-span-1 p-6 rounded-2xl border border-slate-700 bg-slate-900/40 shadow-inner">
+            <DashboardController />
+          </div>
       </main>
       <Footer />
     </div>
